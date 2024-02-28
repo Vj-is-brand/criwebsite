@@ -1,0 +1,18 @@
+.segment-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap if the container is too narrow */
+  margin-bottom: 5vh;
+}
+
+.container-items {
+  display: flex; /* Display items in a row */
+  align-items: center; /* Align items vertically in the middle */
+  margin-right: 10px; /* Add some spacing between items */
+}
+
+.v-bar-color {
+  color: #e03936; /* Example color for the vertical bar */
+  margin-right: 3px; /* Adjust as needed */
+  margin-left: 3px;
+}

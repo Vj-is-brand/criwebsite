@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh;
+}
+@media (max-width: 972px) {
+  .container-box {
+    flex-direction: column;
+  }
+}
+.image_left,
+.image_right,
+.image_bottom {
+  max-width: 100%;
+  height: auto;
+  max-height: 960px;
+}
+
+@media (min-width: 972px) {
+.image_left {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 972px) {
+  .image_bottom {
+    width: 100%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Allow the height to adjust proportionally */
+    max-height: 300px; /* Set a maximum height for smaller screens */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+}
+
+@media screen and (min-width:973px){
+  .image_bottom{
+  margin-left: 10vh;
+  margin-right: 10vh;
+  height: 400px;
+  }
+  
+}
+.container-box{
+  display: flex;
+}
+
+.description{
+    margin-left: 3vh;
+}
+
+.items-name{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+.horizontal-line {
+    height: 1px; /* Adjust the thickness of the line as needed */
+    background-color: #e03936; /* Adjust the color of the line as needed */
+    margin: 10px 0; /* Adjust the margin around the line as needed */
+    margin-left: 1.5vh;
+    margin-right: 1.5vh ;
+  }
+
+  .pTitle{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containeProcess{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    display: flex;
+    justify-content: center;
+  }
+  

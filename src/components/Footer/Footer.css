@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vh ;
+    height: 20vh;
+    background-color: rgb(230, 31, 31);
+    padding: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+}
+@media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+.ml{
+    color: #ffffff;
+    font-weight: 400;
+}
+.icon{
+    margin-right: 4px;
+}
